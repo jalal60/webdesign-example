@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+.btn, .btn-primary {
+  display: inline-block;
+  padding: 15px 15px;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.btn-primary {
+  background-color: blue;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.pt-60 {
+  padding-top: 60px;
+}
+
+.pt-70 {
+  padding-top: 70px;
+}
+
+.pt-80 {
+  padding-top: 80px;
+}
+
+.pt-90 {
+  padding-top: 90px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.menu {
+  background-color: tomato;
+}
+.menu ul {
+  list-style: none;
+  text-align: center;
+}
+.menu ul li {
+  display: inline-block;
+}
+.menu ul li a {
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  padding: 20px 10px;
+  color: #333;
+}
+.menu ul li a:hover {
+  color: #fff;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+}
+.services .single-service {
+  background-color: teal;
+  padding: 20px;
+  width: 33.33%;
+}
+.services .single-service h2 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.services .single-service p {
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 0;
+}
+.services .single-service a:hover {
+  background-color: yellowgreen;
+}
+
+.about {
+  margin: 40px 0;
+}
+.about h2 {
+  font-size: 32px;
+  padding-bottom: 20px;
+}
+.about p {
+  font-size: 16px;
+  line-height: 23px;
+  color: #333;
+}
+.about a {
+  margin-top: 20px;
+}
+
+.footer {
+  background-color: tomato;
+  padding: 20px 0;
+}
+.footer p {
+  color: #fff;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,58 @@
+.exmaple-2{
+    margin-top: 100px;
+    border: 1px solid red;
+    padding: 20px;
+}
+/*Fade in and out Example*/
+.fade-example{
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+}
+
+.div1{
+    width: 100px;
+    height: 100px;
+    background: red;
+    display: none;
+}
+.div2{
+    width: 100px;
+    height: 100px;
+    background: green;
+    display: none;
+}
+.div3{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    display: none;
+}
+#btn-fade{
+    margin-bottom: 20px;
+}
+/*End of Fade in and out Example*/
+.fix{
+    overflow: hidden;
+}
+.slide-example{
+    width: 50%;
+    float: right;
+    margin-top: 50px;
+}
+.div4{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    display: none;
+}
+#btn-slide-hide{
+    margin-left: 30px;
+}
+
+.class-add{
+    margin-top: 100px;
+}
+.newclass{
+    background-color: blue;
+}

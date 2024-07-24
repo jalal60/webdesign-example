@@ -1,0 +1,133 @@
+/*------Range(992px-1200px)------------
+--------Entry Point=1000px------------*/
+@media only screen and (min-width:992px) and (max-width:1200px){
+    body{
+        background-color: red;
+    }
+    .container{
+        width: 970px;
+       
+    }
+    .menu {
+        width: 680px;
+        
+    }
+    .single-service {
+        width: 302px;
+
+    }
+    .about-left {
+       
+        width:680px;
+    }
+    .about-right {
+        width: 260px;
+       
+    }
+}
+/*------Range(768px-991px)------------
+--------Entry Point=800px------------*/
+@media only screen and (min-width:768px) and (max-width:991px){
+    body{
+        background-color: green
+    }
+    .container{
+        width: 750px;
+       
+    }
+    .logo {
+        width: 200px;
+       
+    }
+    .menu {
+        width: 500px;
+    }
+    .menu ul li a {
+       
+        padding: 10px 15px;
+        margin-top: 5px;
+        font-size: 16px;
+       
+    }
+    .service-area {
+        
+        padding: 30px 0;
+    }
+    .single-service {
+        width: 235px;
+       
+        padding: 15px;
+        margin-right: 20px;
+    }
+    .about-right {
+        width: 200px;
+        
+    }
+    .about-left {
+ 
+        width: 500px;
+    }
+    .about-left h2, .about-right h2 {
+        font-size: 26px;
+       
+    }
+    .about-right ul li a {
+      
+        font-size: 16px;
+       
+    }
+}
+/*------Range(00px-767px)-------------------------
+--------Entry Point=400px--Mobile Device----------*/
+@media only screen and (max-width:767px){
+    body{
+        background-color: yellow;
+    }
+    .container{
+        width:320px;
+    }
+    .menu {
+        width: 100%;
+      
+    }
+    .menu ul {
+        text-align: left;
+    }
+    .menu ul li a {
+      
+        padding: 5px 10px;
+        margin-top: 10px;
+        font-size: 16px;
+       
+    }
+    .single-service {
+        margin-bottom: 20px;
+    }
+    .service-area {
+       
+        padding: 30px 0;
+    }
+    .about-right {
+        width: 100%;
+
+    }
+    .about-left {
+        width: 100%;
+    }
+    .about-left h2, .about-right h2 {
+        font-size: 28px;
+       
+    }
+    .about-right ul li a {
+      
+        font-size: 16px;
+    
+    }
+}
+/*------Range(48px-767px)------------
+--------Entry Point=400px------------*/
+@media only screen and (min-width:480px) and (max-width:767px){
+    body{
+        background-color: blue;
+    }
+}

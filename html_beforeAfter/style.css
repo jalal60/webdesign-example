@@ -1,0 +1,150 @@
+
+/* Work area for position absolute and relative */
+.work{
+    position: relative;
+    width: 600px;
+    padding-left: 250px;
+    margin: 100px 0;
+
+}
+
+.work-text{
+    position: absolute;
+    top: 0;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.work-text h2{
+    color: #fff;
+    font-size: 32px;
+}
+.work-text span {
+	color: chocolate;
+	font-size: 28px;
+	font-weight: bold;
+	padding-right: 10px;
+}
+.work-text a {
+	/* display: block; */
+	text-decoration: none;
+    font-size: 18px;
+	color: #fff;
+	background: chocolate;
+	padding: 12px;
+	border-radius: 15px;
+}
+.work-text a:hover{
+    background: blue;
+}
+.work-text p{
+    color: #fff;
+    font-size: 17px;
+    padding-bottom: 20px;
+   
+}
+.work-img img{
+    width: 100%;
+}
+/* Service Area  for Before and After Exmample*/
+/* Before Example with <a> tag*/
+.service-area{
+    width:600px;
+}
+.service img{
+    width:100%;
+}
+
+.service a{
+    position: relative;
+    display: block;
+}
+
+.service a::before{
+    position: absolute;
+    content: "";
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0;
+    transition: .3s;
+}
+.service a:hover::before{
+    opacity: 0.6;
+}
+/* End of Before Example with <a> tag*/
+
+/* Before and After Example with <a> tag*/
+/*============Before===================*/
+.service-after{
+    margin-top: 20px;
+}
+.service-after img{
+    width: 100%;
+}
+.service-after a{
+    position: relative;
+    display: block;
+}
+.service-after a::before{
+    position: absolute;
+    content: "";
+    top:0;
+    background: #000;
+    height: 100%;
+    width: 0%;
+    opacity: 0.7;
+    transition: .3s;
+}
+
+.service-after a:hover::before{
+width: 50%;
+}
+
+
+/*===============After================*/
+.service-after a{
+    position: relative;
+    display: block;
+}
+.service-after a::after{
+    position: absolute;
+    content: "";
+    top:0;
+    right: 0;
+    background: #000;
+    height: 100%;
+    width: 0%;
+    opacity: 0.7;
+    transition: .3s;
+}
+
+.service-after a:hover::after{
+width: 50%;
+}
+/* End of Before & After Example with <a> tag*/
+
+/*=============Heading Before Afetr===============*/
+.title {
+    margin: 50px 100px;
+}
+.title h1{
+    position: relative;
+    display: inline-block;
+}
+.title h1::before{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left:0;
+    height: 2px;
+    width: 70px;
+    background: #000;
+    transition: .3s;
+}
+.title h1:hover::before{
+    width: 100%;
+}
+/*=============End of Heading Before Afetr===============*/

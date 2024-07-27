@@ -1,0 +1,38 @@
+/*--------Blog CSS---------*/
+
+
+.single-blog {
+    width: 380px;
+    float: left;
+    margin-right: 30px;
+    border: 1px solid $border_gray;
+    background: $bg_gray;
+    overflow: hidden;
+    &:hover{
+        .blog-img{
+            transform: scale(1.1);
+        }
+    }
+    &:last-child{
+        margin-right: 0;
+    }
+    .blog-img {
+        height: 250px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: .3s;
+      }
+      .blog-content {
+        padding: 20px;
+        h4 {
+            font-size: 22px;
+            text-transform: capitalize;
+          }
+          p {
+            margin: 15px 0;
+          }
+      }
+  }
+
+

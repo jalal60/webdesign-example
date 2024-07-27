@@ -1,0 +1,15 @@
+/*---------Banner Area-----------*/
+.banner-content{
+    color: $white;
+    h1 {
+        font-size: 42px;
+        padding: 20px 0;
+    }
+    p{
+        max-width: 500px;
+        margin: 30px auto;
+    }
+    a{
+        margin: 0 10px;
+    }
+}

@@ -1,0 +1,74 @@
+/*--------Contact CSS-----------*/
+.contact-area{
+    background: $bg_gray;
+}
+
+.single-contact {
+    width: 400px;
+    float: left;
+    text-align: center;
+    i{
+        font-size: 35px;
+        margin-bottom: 10px;
+     }
+    h4{
+        text-transform: uppercase;
+        font-size: 20px;
+        margin-bottom: 10px;
+        span{
+          display: block;
+          font-size: 16px;
+          font-weight: 400;
+          text-transform: capitalize;
+          margin-bottom: 10px;
+        }
+    }
+  
+}
+
+
+  .contact-bottom{
+    
+    .contact-form {
+        width: 600px;
+        float: left;
+        margin-right: 30px;
+    
+        input {
+            width: 100%;
+            height: 35px;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid $border_gray;
+            /*! padding: 10px; */
+          }
+          input[type='submit']{
+            width: 130px;
+            height: 45px;
+            border: none;
+            cursor: pointer;
+           
+    
+          }
+          textarea {
+            width: 100%;
+            height: 200px;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid $border_gray;
+        }
+      }
+    
+    .contact-map{
+        float: right;
+        width: 550px;
+        iframe{
+            width: 100%;
+            height: 335px;
+            padding: 2px;
+            border: 1px solid #ddd;
+
+        }
+      }
+  }
+  

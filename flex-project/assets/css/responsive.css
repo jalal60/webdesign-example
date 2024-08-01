@@ -1,0 +1,88 @@
+/*-----Medium Screen Entry point=1000px-----------*/
+@media only screen and (min-width:992px) and (max-width:1200px){
+    .main{
+        width:950px;
+       
+    }
+    .logo h2 {
+        font-size: 22px;
+      
+    }
+
+}
+/*-----Tablet Screen Entry point=800px-----------*/
+@media only screen and (min-width:768px) and (max-width:991px){
+    .main{
+        width:750px;
+       
+    }
+    .logo h2 {
+        font-size: 20px;
+       
+    }
+
+}
+/*-----Mobile Screen Entry point=400px-----------*/
+@media only screen and (max-width:767px){
+    .main{
+        width:300px;
+    }
+    .logo {
+        flex-basis: 100%;
+        /* align-items: center; */
+        text-align: center;
+    }
+    .logo h2 {
+        font-size: 22px;
+    }
+    .menu {
+        flex-basis: 100%;
+        margin: 15px 0;
+        /* align-items: center; */
+        /* align-content: center; */
+        /* text-align: center; */
+    }
+    .menu ul {
+        display: flex;
+        /* align-items: flex-end; */
+        /* justify-content: center; */
+        flex-direction: column;
+        /* align-content: center; */
+        align-items: center;
+    }
+    .about-title h4 {
+        font-size: 27px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+    .single-about {
+        flex-basis: 100%;
+        padding: 20px 10px;
+        margin-bottom: 15px;
+    }
+    .single-service {
+        flex-basis: 100%;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .single-gallery {
+        flex-basis: 50%;
+    }
+
+    .contact-form {
+        flex-basis: 100%;
+    }
+    .contact-address {
+        flex-basis: 100%;
+        /* margin-bottom: 20px; */
+        margin-top: 20px;
+    }
+
+}
+/*-----Wide Mobile Screen Entry point=600px-----------*/
+@media only screen and (min-width:480px) and (max-width:767px){
+    .main{
+        width:450px ;
+    }
+
+}

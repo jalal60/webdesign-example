@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+}
+.main{
+    width:1200px;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    transition: .3s;
+    color: #333;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/*--Header CSS------*/
+.header-area {
+    padding: 40px 0;
+  }
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .logo {
+    flex-basis: 25%;
+  }
+  .menu {
+    flex-basis: 70%;
+  }
+  .menu ul {
+    display: flex;
+    /*! align-items: flex-end; */
+    justify-content: flex-end;
+  }
+  .menu ul li {
+    margin-left: 30px;
+  }
+  .menu ul li a {
+    font-size: 18px;
+    text-transform: capitalize;
+  }
+  .logo h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+  }
+
+  .menu ul li a:hover {
+    color: tomato;
+  }
+
+  /*------Banner CSS-------*/
+  .banner-area img {
+	width: 100%;
+	border: 5px solid #dddd;
+	border-radius: 10px;
+}
+
+/*------------About CSS------------*/
+
+.about-area {
+    padding: 80px 0;
+  }
+  .about-title {
+    text-align: center;
+  }
+  .about-title h4 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .about-title p {
+    padding: 20px 0;
+    /*! max-width: 500px; */
+    /*! margin: 0 auto; */
+  }
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .single-about {
+    flex-basis: 32%;
+    padding: 40px 20px;
+    border: 1px solid #dddd;
+    transition: .3s;
+  }
+  .single-about:hover{
+    border-color: tomato;
+    
+  }
+  .single-about:hover i{
+    background-color: tomato;
+    color: #fff;
+  }
+  .single-about i {
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ddd;
+    line-height: 50px;
+    border-radius: 50%;
+    transition: .3s;
+  }
+  .single-about h4 {
+    font-size: 22px;
+    text-transform: capitalize;
+    margin: 10px 0;
+
+  }
+
+  /*--------Services CSS------------*/
+  
+.services-area {
+    padding: 80px 0;
+    background: #f2f2f2;
+  }
+  .service-title {
+    text-align: center;
+  }
+  .service-title h2 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 40px;
+  }
+  .service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .single-service {
+    flex-basis: 32%;
+    padding: 20px;
+    background: #fff;
+  }
+  .single-service h4 {
+    background: teal;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+  }
+  .single-service p {
+    margin: 10px 0;
+    line-height: 24px;
+  }
+  .single-service a {
+    display: inline-block;
+    padding: 15px 25px;
+    background: tomato;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 5px;
+    transition: .3s;
+  }
+  .single-service a:hover {
+    background: teal;
+  }
+
+  /*-------Gallery CSS-----------*/
+  
+.gallery-area {
+    padding: 80px 0;
+  }
+  .gallery-title {
+    text-align: center;
+  }
+  .gallery-title h2 {
+    font-size: 35px;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .single-gallery {
+	flex-basis: 23%;
+	margin-bottom: 30px;
+	border: 5px solid #f2f2f2;
+	border-radius: 5px;
+}
+
+/*----------Contact CSS----------*/
+
+.contact-area {
+    background: #f2f2f2;
+    padding: 80px 0;
+  }
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .contact-form {
+    flex-basis: 60%;
+  }
+  .contact-address {
+    flex-basis: 35%;
+  }
+  .contact-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+  }
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    height: 200px;
+    border: 1px solid #ddd;
+  }
+  .contact-form input[type="submit"] {
+    background: tomato;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 10px 0;
+    transition: .3s;
+  }
+  .contact-form input[type="submit"]:hover {
+    background: teal;
+  }
+
+  
+.single-address {
+    display: flex;
+    align-items: center;
+    /*! margin-right: 10px; */
+  }
+  .single-address i {
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #dddd;
+    text-align: center;
+    border-radius: 50%;
+    background: tomato;
+    color: #fff;
+  }
+  .single-address h4 {
+    font-size: 18px;
+    /*! display: inline-block; */
+  }
+  .single-address h4 span {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: lowercase;
+  }
+
+  /*----------Footer CSS--------*/
+  
+.footer-area {
+    background: teal;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .footer-area p {
+    color: #fff;
+    font-size: 16px;
+  }
